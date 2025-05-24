@@ -40,11 +40,9 @@ public class HomeScreen {
             switch (input) {
 
                 case "1":
-
+                    UserInterface ui = new UserInterface();
                     System.out.println("🥪 Starting new order...");
-
-                    running = false;
-
+                    ui.startOrder();
                     break;
 
                 case "2":
