@@ -39,6 +39,8 @@ public class UserInterface {
 
             System.out.println("5. ❌ Cancel Order");
 
+            System.out.println("6. ⭐ Add Signature Sandwich");
+
             printSeparator();
 
             System.out.print("Choose an option: ");
@@ -49,18 +51,20 @@ public class UserInterface {
 
                 case "1":
 
-                    System.out.println("🥪 Sandwich added");
+
                     buildSandwich();
+                    System.out.println("🥪 Sandwich added");
                     break;
 
                 case "2":
-
+                    DrinkScreen drinkScreen = new DrinkScreen();
+                    drinkScreen.buildDrink();
                     System.out.println("🧃 Drink added ");
-
                     break;
 
                 case "3":
-
+                    ChipsScreen chipsScreen = new ChipsScreen();
+                    chipsScreen.buildChips();
                     System.out.println("🍟 Chips added");
 
                     break;
@@ -68,9 +72,8 @@ public class UserInterface {
                 case "4":
 
                     System.out.println("🧾 Checking out... ");
-
-                    ordering = false;
-
+                    CheckoutScreen checkoutScreen = new CheckoutScreen();
+                    checkoutScreen.displayCheckout();
                     break;
 
                 case "5":
@@ -79,6 +82,12 @@ public class UserInterface {
 
                     ordering = false;
 
+                    break;
+
+                case "6":
+
+                    SignatureSandwichScreen sss = new SignatureSandwichScreen();
+                    sss.buildSignatureSandwich();
                     break;
 
                 default:
