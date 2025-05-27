@@ -88,6 +88,7 @@ public class Sandwich implements OrderItem {
             sb.append("\n").append(toppingList);
         }
         sb.append("\nTotal: $").append(String.format("%.2f", getPrice()));
+
         return sb.toString();
     }
 }

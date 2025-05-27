@@ -11,6 +11,7 @@ public class ToppingData {
     public static List<Topping> getPremiumToppings() {
         List<Topping> toppings = new ArrayList<>();
 
+
         // Meats
         toppings.add(new Topping("Steak", "MEAT", true, Map.of(4, 1.00, 8, 2.00, 12, 3.00)));
         toppings.add(new Topping("Ham", "MEAT", true, Map.of(4, 1.00, 8, 2.00, 12, 3.00)));
