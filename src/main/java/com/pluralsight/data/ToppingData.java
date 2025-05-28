@@ -57,6 +57,22 @@ public class ToppingData {
         return toppings;
     }
 
+    // Helper method to get a specific premium topping by name
+    public static Topping getPremiumTopping(String name) {
+        return getPremiumToppings().stream()
+                .filter(t -> t.getName().equalsIgnoreCase(name))
+                .findFirst()
+                .orElse(null);
+    }
+
+    public static Topping getRegularTopping(String name) {
+        return getRegularToppings().stream()
+                .filter(t -> t.getName().equalsIgnoreCase(name))
+                .findFirst()
+                .orElse(null);
+    }
+
+
     // Combined list
     public static List<Topping> getAllToppings() {
         List<Topping> all = new ArrayList<>();
