@@ -2,13 +2,22 @@ package com.pluralsight.models;
 
 import com.pluralsight.data.ToppingData;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class SignatureSandwich extends Sandwich {
-    private final String name;
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public SignatureSandwich(String name) {
-        super(8, true, "White");
+        super(8, true, "White", new ArrayList<>());
         this.name = name;
         switch (name.toLowerCase()) {
             case "blt":
@@ -30,7 +39,7 @@ public class SignatureSandwich extends Sandwich {
                 ));
                 break;
             default:
-                System.out.println("Unknown signature sandwich: " + name);
+                System.out.println("Our famous signature sandwich " + name);
         }
     }
 

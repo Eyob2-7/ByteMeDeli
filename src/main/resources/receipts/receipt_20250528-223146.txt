@@ -1,0 +1,10 @@
+=== ByteMeDeli Receipt ===
+Date: May 28, 2025 10:31 PM
+
+Order Summary:
+-Medium Lemonade ($2.50)
+================
+Total: $2.50
+Total: $2.50
+
+Thank you for choosing ByteMeDeli!

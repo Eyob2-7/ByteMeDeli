@@ -1,0 +1,14 @@
+=== ByteMeDeli Receipt ===
+Date: May 29, 2025 09:21 AM
+
+- Drink: Small Cola ($2.00)
+
+- Sandwich: 8" on White (toasted)
+  Base Sandwich (8"): $7.00
+  Toppings:
+  Sandwich Total: $7.00
+
+-----------------------------
+Total: $9.00
+
+Thank you for choosing ByteMeDeli!

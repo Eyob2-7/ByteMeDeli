@@ -1,0 +1,20 @@
+=== ByteMeDeli Receipt ===
+Date: May 29, 2025 11:35 AM
+
+- Sandwich: 8" on White (toasted)
+  Base Sandwich (8"): $7.00
+   Included Sides: au jus, sauce
+  Toppings:
+  - Steak ($2.00)
+  - Extra Meat ($1.00)
+  - American ($1.50)
+  - Lettuce
+  - Onions
+  - Jalapeños
+  - Thousand Island
+  Sandwich Total: $11.50
+
+-----------------------------
+Total: $11.50
+
+Thank you for choosing ByteMeDeli!

@@ -1,0 +1,25 @@
+=== ByteMeDeli Receipt ===
+Date: May 28, 2025 11:59 PM
+
+- Sandwich: 8" on White
+  Base Sandwich (8"): $7.00
+  Toppings:
+  - Steak ($2.00)
+  - Extra Meat ($1.00)
+  - Provolone ($1.50)
+  - Extra Cheese ($0.60)
+  - Lettuce
+  - Onions
+  - Guacamole
+  - Mustard
+  - Vinaigrette
+  Sandwich Total: $12.10
+
+- Drink: Small Cola ($2.00)
+
+- Chips: Classic (Salted) ($1.50)
+
+-----------------------------
+Total: $15.60
+
+Thank you for choosing ByteMeDeli!

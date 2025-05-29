@@ -1,0 +1,10 @@
+=== ByteMeDeli Receipt ===
+Date: May 28, 2025 10:24 PM
+
+Order Summary:
+-Salted Jalapeño Chips ($1.50)
+================
+
+Total: $1.50
+
+Thank you for choosing ByteMeDeli!
