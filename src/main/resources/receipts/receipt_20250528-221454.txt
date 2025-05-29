@@ -1,0 +1,16 @@
+=== ByteMeDeli Receipt ===
+Date: May 28, 2025 10:14 PM
+
+Order Summary:
+-Salted Sour Cream & Onion Chips ($1.50)
+-8" sandwich on Wheatbread (toasted)
+Toppings:
+-Steak
+-American
+-Peppers
+Total: $10.50
+-Medium Lemonade ($2.50)
+Total: $14.50
+Total: $14.50
+
+Thank you for choosing ByteMeDeli!

@@ -1,0 +1,21 @@
+=== ByteMeDeli Receipt ===
+Date: May 28, 2025 11:09 PM
+
+Order Summary:
+-4" sandwich on Whitebread (toasted)
+Toppings:
+-Steak
+-Extra Meat
+-American
+-Lettuce
+-Cucumbers
+-Guacamole
+-Mayo
+Total: $7.75
+-Small Cola ($2.00)
+-Salted Barbecue Chips ($1.50)
+================
+Total: $11.25
+Total: $11.25
+
+Thank you for choosing ByteMeDeli!

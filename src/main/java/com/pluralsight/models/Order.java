@@ -29,6 +29,8 @@ public class Order {
                 .sum();
     }
 
+
+
     // Returns full order summary
     public String getOrderSummary() {
 
@@ -36,9 +38,15 @@ public class Order {
         for (OrderItem item : items) {
             sb.append("-").append(item.getOrderSummary()).append("\n");
         }
-
+        sb.append("================" + "\n");
         sb.append("Total: $").append(String.format("%.2f", getTotal()));
         return sb.toString();
     }
 
+    @Override
+    public String toString() {
+        return "Order{" +
+                "items=" + items +
+                '}';
+    }
 }

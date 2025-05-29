@@ -12,4 +12,5 @@ public interface OrderItem {
 
     // Returns a summary of the item
     String getOrderSummary();
+
 }

@@ -1,0 +1,12 @@
+=== ByteMeDeli Receipt ===
+Date: May 29, 2025 09:18 AM
+
+- Sandwich: 8" on White (toasted)
+  Base Sandwich (8"): $7.00
+  Toppings:
+  Sandwich Total: $7.00
+
+-----------------------------
+Total: $7.00
+
+Thank you for choosing ByteMeDeli!

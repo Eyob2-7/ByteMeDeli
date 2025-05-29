@@ -1,0 +1,26 @@
+=== ByteMeDeli Receipt ===
+Date: May 29, 2025 11:28 AM
+
+- Sandwich: 4" on White (toasted)
+  Base Sandwich (4"): $5.50
+  Toppings:
+  - Steak ($1.00)
+   Included Sides: au jus, sauce
+  - Extra Meat ($0.50)
+   Included Sides: au jus, sauce
+  - American ($0.75)
+   Included Sides: au jus, sauce
+  - Extra Cheese ($0.30)
+   Included Sides: au jus, sauce
+  - Lettuce
+  - Peppers
+  - Jalapeños
+  - Ketchup
+  Sandwich Total: $8.05
+
+- Drink: Small Cola ($2.00)
+
+-----------------------------
+Total: $10.05
+
+Thank you for choosing ByteMeDeli!

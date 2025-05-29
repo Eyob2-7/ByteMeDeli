@@ -1,6 +1,5 @@
 package com.pluralsight.models;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -10,11 +9,11 @@ public class Sandwich implements OrderItem {
     private String breadType;
     private boolean isToasted;
 
-    public Sandwich(int size, boolean isToasted, String breadType) {
+    public Sandwich(int size, boolean isToasted, String breadType, List<Topping> toppings) {
         this.size = size;
         this.isToasted = isToasted;
         this.breadType = breadType;
-        this.toppings = new ArrayList<>();
+        this.toppings = toppings;
     }
 
     // Gets bread type
@@ -67,6 +66,17 @@ public class Sandwich implements OrderItem {
                         .sum();
         return basePrice + toppingPrice;
     }
+
+    // Returns only the base price
+    public double getBasePrice() {
+        return switch (size) {
+            case 4 -> 5.50;
+            case 8 -> 7.00;
+            case 12 -> 8.50;
+            default -> 0.0;
+        };
+    }
+
 
     // Returns summary of the sandwich order
     @Override

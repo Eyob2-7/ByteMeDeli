@@ -1,0 +1,10 @@
+=== ByteMeDeli Receipt ===
+Date: May 28, 2025 10:27 PM
+
+Order Summary:
+-Small Water ($2.00)
+================
+Total: $2.00
+Total: $2.00
+
+Thank you for choosing ByteMeDeli!

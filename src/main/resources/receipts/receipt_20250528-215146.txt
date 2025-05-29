@@ -1,0 +1,20 @@
+=== ByteMeDeli Receipt ===
+Date: May 28, 2025 09:51 PM
+
+Order Summary:
+-4" sandwich on Whitebread (toasted)
+Toppings:
+-Steak
+-American
+-Lettuce
+Total: $7.25
+-Medium Lemonade ($2.50)
+-Salted Sour Cream & Onion Chips ($1.50)
+-[Signature] philly cheese steak
+8" sandwich on Whitebread (toasted)
+Toppings: none
+Total: $7.00
+Total: $18.25
+Total: $18.25
+
+Thank you for choosing ByteMeDeli!
