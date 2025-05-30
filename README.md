@@ -41,40 +41,79 @@ ByteMeDeli is a Java-based CLI application that simulates a point-of-sale (POS) 
 + Follows clean code practices and single responsibility principle.
 ---
 ## 📁 Folder Structure
-src/
-├── com.pluralsight
-│   ├── data/
-│   │   └── ToppingData.java            # Provides topping lists and pricing
-│   ├── models/                         # Core domain models
-│   │   ├── Chips.java
-│   │   ├── Drink.java
-│   │   ├── Order.java
-│   │   ├── OrderItem.java              # Interface for all orderable items
-│   │   ├── Sandwich.java
-│   │   ├── SignatureSandwich.java
-│   │   └── Topping.java
-│   ├── ui/                             # CLI screen logic
-│   │   ├── CheckoutScreen.java
-│   │   ├── ChipsScreen.java
-│   │   ├── DrinkScreen.java
-│   │   ├── HomeScreen.java
-│   │   ├── SandwichScreen.java
-│   │   ├── SignatureSandwichScreen.java
-│   │   └── UserInterface.java
-│   └── util/
-│       └── ReceiptWriter.java          # Handles order receipt formatting
-│
-├── ByteMeDeliApp.java                  # Main app entry point
-resources/
-├── receipts/                           # Saved receipt files
-└── screenshots/                        # Screenshots for demo and README
-   ├── home_screen.png
-   ├── menu.png
-   ├── premium_topping.png
-   ├── select_drink.png
-   ├── select_chips.png
-   ├── receipt.png
+<pre>
 
+```bash
+
+src/
+
+├── com.pluralsight
+
+│   ├── data/
+
+│   │   └── ToppingData.java
+
+│   ├── models/
+
+│   │   ├── Chips.java
+
+│   │   ├── Drink.java
+
+│   │   ├── Order.java
+
+│   │   ├── OrderItem.java
+
+│   │   ├── Sandwich.java
+
+│   │   ├── SignatureSandwich.java
+
+│   │   └── Topping.java
+
+│   ├── ui/
+
+│   │   ├── CheckoutScreen.java
+
+│   │   ├── ChipsScreen.java
+
+│   │   ├── DrinkScreen.java
+
+│   │   ├── HomeScreen.java
+
+│   │   ├── SandwichScreen.java
+
+│   │   ├── SignatureSandwichScreen.java
+
+│   │   └── UserInterface.java
+
+│   └── util/
+
+│       └── ReceiptWriter.java
+
+│
+
+├── ByteMeDeliApp.java
+
+resources/
+
+├── receipts/
+
+└── screenshots/
+
+    ├── home_screen.png
+
+    ├── menu.png
+
+    ├── premium_topping.png
+
+    ├── select_drink.png
+
+    ├── select_chips.png
+
+    └── receipt.png
+
+```
+</pre>
+ 
 
 ## 🧪 Testing
 Unit testing has been added to validate core functionality. Tests cover:
