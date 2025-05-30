@@ -39,7 +39,6 @@ public class SignatureSandwich extends Sandwich {
                 ));
                 break;
             default:
-                System.out.println("Our famous signature sandwich " + name);
         }
     }
 
