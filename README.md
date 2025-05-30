@@ -57,12 +57,12 @@ Unit testing has been added to validate core functionality. Tests cover:
 + ✅ Sandwich price calculation (including regular, premium, and extra toppings)
 + ✅ Order total calculation using all item types (sandwich, drink, chips)
 + 🚧 Additional tests like empty order, summary output, and edge cases can be added
-⸻
+  
 ✅ How to Run
 1. Clone the repo
 2. Open in IntelliJ (or any IDE)
 3. Run ByteMeDeliApp.java
 4. Follow the CLI prompts to place your order
-⸻
+
 🧾 License
 Created by Eyob Mengistu – 2025
