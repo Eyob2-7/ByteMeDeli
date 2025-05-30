@@ -33,7 +33,7 @@ ByteMeDeli is a Java-based CLI application that simulates a point-of-sale (POS) 
 ### ⭐ Signature Sandwiches
 ![Signature Sandwich](src/main/resources/screenshots/signature_sandwich.png)
 ### 📋 Receipt
-![Receipt]src/main/resources/screenshots/receipt.png)
+![Receipt](src/main/resources/screenshots/receipt.png)
 ---
 ## 🧠 Design Notes
 + Uses a flexible data model (`Topping`, `Sandwich`, `Order`) for scalability.
